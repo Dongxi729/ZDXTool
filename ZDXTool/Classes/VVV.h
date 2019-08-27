@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface VVV : NSObject
 
+- (void)extracted;
+
 @end
 
 NS_ASSUME_NONNULL_END
