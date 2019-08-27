@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "TestLog.h"
+#import "ZDXTool.h"
 
 FOUNDATION_EXPORT double ZDXToolVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZDXToolVersionString[];

@@ -1,5 +1,5 @@
 PODS:
-  - ZDXTool (0.1.0)
+  - ZDXTool (0.1.1)
 
 DEPENDENCIES:
   - ZDXTool (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZDXTool: 6cd0e33cca4f29fe80e461c1fb3fb00d9f5eb484
+  ZDXTool: ba72ca6be3bc5a67298e537e9c733a48ef86073a
 
 PODFILE CHECKSUM: 023cab6b63369e1e2b4b154ac0aa7976f897b260
 
