@@ -8,6 +8,8 @@
 #ifndef ZDXTool_h
 #define ZDXTool_h
 
-#import "ZDXTool.h"
+#import "UIColor+ColorChange.h"
+#import "TestLog.h"
+#import "VVV.h"
 
 #endif /* ZDXTool_h */

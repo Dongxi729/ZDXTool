@@ -8,16 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		0B8CFBDB9D445BD3FCA4D58AC7D6DDE8 /* Pods-ZDXTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 242867FB3202D9A82B49C1B2939945BD /* Pods-ZDXTool_Tests-dummy.m */; };
-		1D1C7E859EE1430C7AA8FE1AF688714F /* ZDXTool.h in Headers */ = {isa = PBXBuildFile; fileRef = AB46007D1210D07A991957F5A6DE54B0 /* ZDXTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		410B5CAEB60B406D76930D1F5CFF1C3D /* VVV.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E665B7F672E0B725206A5788E77D5E2 /* VVV.m */; };
+		0F52FC69542242CAB2F8429C24BEC3D1 /* UIColor+ColorChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 812315747E00AC04AA3765DA5624ED52 /* UIColor+ColorChange.m */; };
 		6F35532E24E7FC2EFBBB746F40A7707A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B89037DDF5BEBC56831D59EB92EEF91C /* ZDXTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E802861DA9C734765829822877C06A72 /* ZDXTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8A357BECFEC6BAEE5283C8C1E08EA9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DC269C18BA46282FDBCBBAEDA8766A4A /* TestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5574631819438C5D0483BC8FA22859 /* TestLog.m */; };
-		ED2F3E718E2D42630DF67BA4F5EC80AA /* ZDXTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DB988F1E5AF6E664C59CB7686597F6 /* ZDXTool-dummy.m */; };
+		6F6CCE3E41EEBDEF9889A1CAF438D9E9 /* ZDXTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9792D124486366756192A9925333B63B /* ZDXTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B905397AF5E45510B44385F533911D4 /* TestLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 89F42BF3EC60E58962A60F3587124EFF /* TestLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94FC0C2AA0C33ACBF0970C2F56C44656 /* TestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = DF67F633701AC5C140B2D42B5D5C637F /* TestLog.m */; };
+		A0619908997EC5DFC5B695E257FDF800 /* VVV.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A8560422DAA7BE10598B6BAC446315B /* VVV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A54428029CA035114EA7DBC8F4E98899 /* VVV.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A83C023B85F72FEEBAFA1834C63EC /* VVV.m */; };
+		C4494D489E9F007132725A09D08616CA /* ZDXTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 453984CBB6C493FB72B7B43178CDC9D3 /* ZDXTool-dummy.m */; };
+		C459FFE3477F221B0FC4B05125065F07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CB5DBF8C39E8E34ED8F03647E33AE71A /* ZDXTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3436F5BEAB866B3D66C7D6C857A8DAFD /* ZDXTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1FE12DB93EA04A8D019387F5ADF623B /* UIColor+ColorChange.h in Headers */ = {isa = PBXBuildFile; fileRef = D4FD1FBCADEB50AAC0CAB52B77847297 /* UIColor+ColorChange.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EFA394D3DA9B3BF7FA4F1692DD6F1CB4 /* Pods-ZDXTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B42CCF22D7164C36AE1D396D8E2E1E83 /* Pods-ZDXTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F30A21A59461EA6ED99C10A9C53F2903 /* TestLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 58067643FD31F6D28BF07F5E668E7121 /* TestLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9E1CF5DB73637589935D12ACF966802 /* VVV.h in Headers */ = {isa = PBXBuildFile; fileRef = E4522A1AB435309EB9CDA8CD2A34A68C /* VVV.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,29 +33,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A8560422DAA7BE10598B6BAC446315B /* VVV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VVV.h; path = ZDXTool/Classes/VVV.h; sourceTree = "<group>"; };
 		242867FB3202D9A82B49C1B2939945BD /* Pods-ZDXTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZDXTool_Tests-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3266FDE5F417B9B3E3A6E61C06DF50E0 /* Pods-ZDXTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDXTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3436F5BEAB866B3D66C7D6C857A8DAFD /* ZDXTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZDXTool-umbrella.h"; sourceTree = "<group>"; };
 		4336A963E5EE842A151C6252C63C1FB7 /* ZDXTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZDXTool.framework; path = ZDXTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4665986A0FF975609E2695AD3935CC29 /* ZDXTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZDXTool.modulemap; sourceTree = "<group>"; };
-		58067643FD31F6D28BF07F5E668E7121 /* TestLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestLog.h; path = ZDXTool/Classes/TestLog.h; sourceTree = "<group>"; };
-		77DB988F1E5AF6E664C59CB7686597F6 /* ZDXTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZDXTool-dummy.m"; sourceTree = "<group>"; };
-		8014B7631DD3D37B21D880840B09D143 /* ZDXTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZDXTool-prefix.pch"; sourceTree = "<group>"; };
+		453984CBB6C493FB72B7B43178CDC9D3 /* ZDXTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZDXTool-dummy.m"; sourceTree = "<group>"; };
+		61A3C7EEA25C8136AD2707718CE88587 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6FCAC1423CE2D804472457875F089A21 /* ZDXTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZDXTool-prefix.pch"; sourceTree = "<group>"; };
+		812315747E00AC04AA3765DA5624ED52 /* UIColor+ColorChange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ColorChange.m"; path = "ZDXTool/Classes/UIColor+ColorChange.m"; sourceTree = "<group>"; };
 		82FBA29D912164C714B4535F3FDDD563 /* Pods-ZDXTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZDXTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89F42BF3EC60E58962A60F3587124EFF /* TestLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestLog.h; path = ZDXTool/Classes/TestLog.h; sourceTree = "<group>"; };
 		8DD5C433BAD2500E256D34D6211A33DB /* Pods-ZDXTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDXTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8E665B7F672E0B725206A5788E77D5E2 /* VVV.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VVV.m; path = ZDXTool/Classes/VVV.m; sourceTree = "<group>"; };
-		8EBD32443DD5946B394607CF351642B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9245414EC948AD4A9E2D23A50B31E5C8 /* ZDXTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZDXTool-Info.plist"; sourceTree = "<group>"; };
+		9792D124486366756192A9925333B63B /* ZDXTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZDXTool.h; path = ZDXTool/Classes/ZDXTool.h; sourceTree = "<group>"; };
+		9C7A83C023B85F72FEEBAFA1834C63EC /* VVV.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VVV.m; path = ZDXTool/Classes/VVV.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A46B4BA822C5E660B75B00BBBF087342 /* ZDXTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZDXTool-Info.plist"; sourceTree = "<group>"; };
-		AB46007D1210D07A991957F5A6DE54B0 /* ZDXTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZDXTool.h; path = ZDXTool/Classes/ZDXTool.h; sourceTree = "<group>"; };
-		ACC3BF4CBCF1FF0930C65948DCC3EA56 /* ZDXTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZDXTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B21094B7F96567C983B208143BC628E9 /* ZDXTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZDXTool.xcconfig; sourceTree = "<group>"; };
+		A1F0713358505CFDE743AF25A13BF851 /* ZDXTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZDXTool.modulemap; sourceTree = "<group>"; };
 		B42CCF22D7164C36AE1D396D8E2E1E83 /* Pods-ZDXTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZDXTool_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BFDA9B5E3809CD63BA5A3DEA31541FEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		CC5574631819438C5D0483BC8FA22859 /* TestLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestLog.m; path = ZDXTool/Classes/TestLog.m; sourceTree = "<group>"; };
+		CD8D3D04EE5743CA5A38F0156E94F850 /* ZDXTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZDXTool.xcconfig; sourceTree = "<group>"; };
+		D4FD1FBCADEB50AAC0CAB52B77847297 /* UIColor+ColorChange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ColorChange.h"; path = "ZDXTool/Classes/UIColor+ColorChange.h"; sourceTree = "<group>"; };
+		D68A60287B54E30336346AA335BAA0DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D6C60331BEC6B5F388D8EAAD7BF850B3 /* Pods-ZDXTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZDXTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E4522A1AB435309EB9CDA8CD2A34A68C /* VVV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VVV.h; path = ZDXTool/Classes/VVV.h; sourceTree = "<group>"; };
-		E802861DA9C734765829822877C06A72 /* ZDXTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZDXTool-umbrella.h"; sourceTree = "<group>"; };
+		DBED23E316FB9CCA9D5C6FA21F19FFFD /* ZDXTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZDXTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DF67F633701AC5C140B2D42B5D5C637F /* TestLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestLog.m; path = ZDXTool/Classes/TestLog.m; sourceTree = "<group>"; };
 		EB517C875FA7E4F562F75DF71A83B897 /* Pods_ZDXTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZDXTool_Tests.framework; path = "Pods-ZDXTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8024DEEAD11E5BAE0432690D83BFBA5 /* Pods-ZDXTool_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZDXTool_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		FB97C16152F3B6D3257E411486CF2D48 /* Pods-ZDXTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZDXTool_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -61,14 +65,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0FE5C0E653550666E7536032625A55EE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C8A357BECFEC6BAEE5283C8C1E08EA9A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1AE762447E098CA209D700035DCA4A30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -77,19 +73,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C9F2E842C98329E422C80E6A9CC3DCA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C459FFE3477F221B0FC4B05125065F07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		219C1B3FDDEB01B80204A10B4C352D39 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8EBD32443DD5946B394607CF351642B5 /* LICENSE */,
-				BFDA9B5E3809CD63BA5A3DEA31541FEE /* README.md */,
-				ACC3BF4CBCF1FF0930C65948DCC3EA56 /* ZDXTool.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		2F350DF8E33CF20ADAFDF7DFE1C83D5F /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,15 +93,33 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		41811EAC277F8C2A7A4E35319E2D4E1D /* Support Files */ = {
+		30672DBB06972124FBE9FE7F53AE8F4D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4665986A0FF975609E2695AD3935CC29 /* ZDXTool.modulemap */,
-				B21094B7F96567C983B208143BC628E9 /* ZDXTool.xcconfig */,
-				77DB988F1E5AF6E664C59CB7686597F6 /* ZDXTool-dummy.m */,
-				A46B4BA822C5E660B75B00BBBF087342 /* ZDXTool-Info.plist */,
-				8014B7631DD3D37B21D880840B09D143 /* ZDXTool-prefix.pch */,
-				E802861DA9C734765829822877C06A72 /* ZDXTool-umbrella.h */,
+				E129AE1413F1CCDB5D9E47927E8B5251 /* ZDXTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3605ACFB700F3CEE4F50177BF2383DCF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D68A60287B54E30336346AA335BAA0DB /* LICENSE */,
+				61A3C7EEA25C8136AD2707718CE88587 /* README.md */,
+				DBED23E316FB9CCA9D5C6FA21F19FFFD /* ZDXTool.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		739622DDFE790EDC6D817EC1B78B5E33 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1F0713358505CFDE743AF25A13BF851 /* ZDXTool.modulemap */,
+				CD8D3D04EE5743CA5A38F0156E94F850 /* ZDXTool.xcconfig */,
+				453984CBB6C493FB72B7B43178CDC9D3 /* ZDXTool-dummy.m */,
+				9245414EC948AD4A9E2D23A50B31E5C8 /* ZDXTool-Info.plist */,
+				6FCAC1423CE2D804472457875F089A21 /* ZDXTool-prefix.pch */,
+				3436F5BEAB866B3D66C7D6C857A8DAFD /* ZDXTool-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ZDXTool";
@@ -119,14 +131,6 @@
 				A55005FC962DAFF62D98DE4EC9AA3AAC /* Pods-ZDXTool_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		8EED69C9F24850C307B57C0E353E2F83 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DCA601DDB2314F3C5A603614AFEF560E /* ZDXTool */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A55005FC962DAFF62D98DE4EC9AA3AAC /* Pods-ZDXTool_Tests */ = {
@@ -158,7 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8EED69C9F24850C307B57C0E353E2F83 /* Development Pods */,
+				30672DBB06972124FBE9FE7F53AE8F4D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				2F350DF8E33CF20ADAFDF7DFE1C83D5F /* Products */,
 				89A216642CC259786E723F1B189E79EB /* Targets Support Files */,
@@ -173,16 +177,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DCA601DDB2314F3C5A603614AFEF560E /* ZDXTool */ = {
+		E129AE1413F1CCDB5D9E47927E8B5251 /* ZDXTool */ = {
 			isa = PBXGroup;
 			children = (
-				58067643FD31F6D28BF07F5E668E7121 /* TestLog.h */,
-				CC5574631819438C5D0483BC8FA22859 /* TestLog.m */,
-				E4522A1AB435309EB9CDA8CD2A34A68C /* VVV.h */,
-				8E665B7F672E0B725206A5788E77D5E2 /* VVV.m */,
-				AB46007D1210D07A991957F5A6DE54B0 /* ZDXTool.h */,
-				219C1B3FDDEB01B80204A10B4C352D39 /* Pod */,
-				41811EAC277F8C2A7A4E35319E2D4E1D /* Support Files */,
+				89F42BF3EC60E58962A60F3587124EFF /* TestLog.h */,
+				DF67F633701AC5C140B2D42B5D5C637F /* TestLog.m */,
+				D4FD1FBCADEB50AAC0CAB52B77847297 /* UIColor+ColorChange.h */,
+				812315747E00AC04AA3765DA5624ED52 /* UIColor+ColorChange.m */,
+				0A8560422DAA7BE10598B6BAC446315B /* VVV.h */,
+				9C7A83C023B85F72FEEBAFA1834C63EC /* VVV.m */,
+				9792D124486366756192A9925333B63B /* ZDXTool.h */,
+				3605ACFB700F3CEE4F50177BF2383DCF /* Pod */,
+				739622DDFE790EDC6D817EC1B78B5E33 /* Support Files */,
 			);
 			name = ZDXTool;
 			path = ../..;
@@ -191,14 +197,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6B55341C82C36A933D36117D6705AF02 /* Headers */ = {
+		0427F707B7D197207ADF2620CB4E88E5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F30A21A59461EA6ED99C10A9C53F2903 /* TestLog.h in Headers */,
-				F9E1CF5DB73637589935D12ACF966802 /* VVV.h in Headers */,
-				B89037DDF5BEBC56831D59EB92EEF91C /* ZDXTool-umbrella.h in Headers */,
-				1D1C7E859EE1430C7AA8FE1AF688714F /* ZDXTool.h in Headers */,
+				8B905397AF5E45510B44385F533911D4 /* TestLog.h in Headers */,
+				D1FE12DB93EA04A8D019387F5ADF623B /* UIColor+ColorChange.h in Headers */,
+				A0619908997EC5DFC5B695E257FDF800 /* VVV.h in Headers */,
+				CB5DBF8C39E8E34ED8F03647E33AE71A /* ZDXTool-umbrella.h in Headers */,
+				6F6CCE3E41EEBDEF9889A1CAF438D9E9 /* ZDXTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,12 +222,12 @@
 /* Begin PBXNativeTarget section */
 		9E30468E06177B9D08B2C8286244CB81 /* ZDXTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9BB682F23BFB75227754F4F355AB0D55 /* Build configuration list for PBXNativeTarget "ZDXTool" */;
+			buildConfigurationList = FC715E4A010CFD3E0375105A1A2D80EC /* Build configuration list for PBXNativeTarget "ZDXTool" */;
 			buildPhases = (
-				6B55341C82C36A933D36117D6705AF02 /* Headers */,
-				09CF18D092143CFF8F5E10DDD9A002FF /* Sources */,
-				0FE5C0E653550666E7536032625A55EE /* Frameworks */,
-				F1C3517F01E733130DFA7AFAB13FC5BD /* Resources */,
+				0427F707B7D197207ADF2620CB4E88E5 /* Headers */,
+				8D6D72EC33EAB4BD2F621447B6205808 /* Sources */,
+				C9F2E842C98329E422C80E6A9CC3DCA4 /* Frameworks */,
+				5CE9E0A03C4D5E52DEF68A809A72B2E5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -285,7 +292,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1C3517F01E733130DFA7AFAB13FC5BD /* Resources */ = {
+		5CE9E0A03C4D5E52DEF68A809A72B2E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -295,13 +302,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		09CF18D092143CFF8F5E10DDD9A002FF /* Sources */ = {
+		8D6D72EC33EAB4BD2F621447B6205808 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC269C18BA46282FDBCBBAEDA8766A4A /* TestLog.m in Sources */,
-				410B5CAEB60B406D76930D1F5CFF1C3D /* VVV.m in Sources */,
-				ED2F3E718E2D42630DF67BA4F5EC80AA /* ZDXTool-dummy.m in Sources */,
+				94FC0C2AA0C33ACBF0970C2F56C44656 /* TestLog.m in Sources */,
+				0F52FC69542242CAB2F8429C24BEC3D1 /* UIColor+ColorChange.m in Sources */,
+				A54428029CA035114EA7DBC8F4E98899 /* VVV.m in Sources */,
+				C4494D489E9F007132725A09D08616CA /* ZDXTool-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,37 +333,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		57048B21D47A2EF230011DAB18EB1C13 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B21094B7F96567C983B208143BC628E9 /* ZDXTool.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZDXTool/ZDXTool-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZDXTool/ZDXTool-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZDXTool/ZDXTool.modulemap";
-				PRODUCT_MODULE_NAME = ZDXTool;
-				PRODUCT_NAME = ZDXTool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -547,9 +524,9 @@
 			};
 			name = Release;
 		};
-		FFEB9ABA7A92649C1F9B1A453D4264DE /* Release */ = {
+		CAADB293EF5499B01B2242775C3EEF9F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B21094B7F96567C983B208143BC628E9 /* ZDXTool.xcconfig */;
+			baseConfigurationReference = CD8D3D04EE5743CA5A38F0156E94F850 /* ZDXTool.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -579,6 +556,37 @@
 			};
 			name = Release;
 		};
+		D2567A515B2692F3C468354F2F101DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD8D3D04EE5743CA5A38F0156E94F850 /* ZDXTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZDXTool/ZDXTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZDXTool/ZDXTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZDXTool/ZDXTool.modulemap";
+				PRODUCT_MODULE_NAME = ZDXTool;
+				PRODUCT_NAME = ZDXTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -600,11 +608,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9BB682F23BFB75227754F4F355AB0D55 /* Build configuration list for PBXNativeTarget "ZDXTool" */ = {
+		FC715E4A010CFD3E0375105A1A2D80EC /* Build configuration list for PBXNativeTarget "ZDXTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				57048B21D47A2EF230011DAB18EB1C13 /* Debug */,
-				FFEB9ABA7A92649C1F9B1A453D4264DE /* Release */,
+				D2567A515B2692F3C468354F2F101DB8 /* Debug */,
+				CAADB293EF5499B01B2242775C3EEF9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

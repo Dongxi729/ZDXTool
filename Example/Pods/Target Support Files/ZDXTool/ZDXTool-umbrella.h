@@ -11,6 +11,7 @@
 #endif
 
 #import "TestLog.h"
+#import "UIColor+ColorChange.h"
 #import "VVV.h"
 #import "ZDXTool.h"
 
