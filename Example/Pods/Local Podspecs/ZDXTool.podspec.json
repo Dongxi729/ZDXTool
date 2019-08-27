@@ -19,5 +19,9 @@
     "ios": "8.0"
   },
   "source_files": "ZDXTool/Classes/**/*",
-  "public_header_files": "Pod/Classes/**/*.h"
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
 }

@@ -1,15 +1,36 @@
 PODS:
-  - ZDXTool (0.1.1)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - ZDXTool (0.1.1):
+    - AFNetworking
 
 DEPENDENCIES:
   - ZDXTool (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   ZDXTool:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZDXTool: ba72ca6be3bc5a67298e537e9c733a48ef86073a
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  ZDXTool: 1f7e2e20cdcc9831e68f9a129aeca657df3f5694
 
 PODFILE CHECKSUM: 023cab6b63369e1e2b4b154ac0aa7976f897b260
 
