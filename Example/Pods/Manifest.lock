@@ -14,10 +14,11 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - ZDXTool (0.1.5):
+  - ZDXTool (0.1.8):
     - AFNetworking
 
 DEPENDENCIES:
+  - AFNetworking
   - ZDXTool (from `../`)
 
 SPEC REPOS:
@@ -30,8 +31,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  ZDXTool: db31620c3f4f3d6623b764968eeb7c6150169da6
+  ZDXTool: 61e92ffb1362113c49cc7966ff2c6c68c04d7895
 
-PODFILE CHECKSUM: 023cab6b63369e1e2b4b154ac0aa7976f897b260
+PODFILE CHECKSUM: c7053e293777b35ae68efa1c22d4da924f63eb0c
 
 COCOAPODS: 1.7.4
