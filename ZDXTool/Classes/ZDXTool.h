@@ -9,7 +9,6 @@
 #define ZDXTool_h
 
 #import "UIColor+ColorChange.h"
-#import "NetworkTool.h"
 #import "XTNetWorkService.h"
 
 #endif /* ZDXTool_h */

@@ -90,8 +90,6 @@
 		16BAF235D6C6151852641F560F429049 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		1C46BF32442A1135CE197A34568A199A /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		242867FB3202D9A82B49C1B2939945BD /* Pods-ZDXTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZDXTool_Tests-dummy.m"; sourceTree = "<group>"; };
-		26BBC3C92326366F0073955F /* NetworkTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NetworkTool.m; path = ZDXTool/Classes/NetworkTool.m; sourceTree = "<group>"; };
-		26BBC3CA2326366F0073955F /* NetworkTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NetworkTool.h; path = ZDXTool/Classes/NetworkTool.h; sourceTree = "<group>"; };
 		26BBC3CB232639B40073955F /* ZDXTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZDXTool.h; path = ZDXTool/Classes/ZDXTool.h; sourceTree = "<group>"; };
 		26BBC3D1232650FD0073955F /* XTNetWorkService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XTNetWorkService.h; path = ZDXTool/Classes/XTNetWorkService.h; sourceTree = "<group>"; };
 		26BBC3D2232650FD0073955F /* XTNetWorkService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = XTNetWorkService.m; path = ZDXTool/Classes/XTNetWorkService.m; sourceTree = "<group>"; };
@@ -380,8 +378,6 @@
 				812315747E00AC04AA3765DA5624ED52 /* UIColor+ColorChange.m */,
 				26BBC3D1232650FD0073955F /* XTNetWorkService.h */,
 				26BBC3D2232650FD0073955F /* XTNetWorkService.m */,
-				26BBC3CA2326366F0073955F /* NetworkTool.h */,
-				26BBC3C92326366F0073955F /* NetworkTool.m */,
 				3605ACFB700F3CEE4F50177BF2383DCF /* Pod */,
 				739622DDFE790EDC6D817EC1B78B5E33 /* Support Files */,
 			);
