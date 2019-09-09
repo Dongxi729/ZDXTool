@@ -9,10 +9,11 @@
 #import "XTNetWorkService.h"
 #import "AFNetworking.h"
 
-
 #define TIMEOUTINTERVAL 60
 
 @interface XTNetWorkService ()
+
+@property (nonatomic,strong) AFHTTPSessionManager * _Nullable manager;
 
 @end
 
@@ -48,18 +49,18 @@ static XTNetWorkService *_netWorkService = nil;
     
     if (dic == nil) {
         NSDictionary *errorInfo = @{
-            @"status" : @(200),
-            @"url" : urlString,
-            @"data" : @{},
-            @"headers" : @{}
-        };
+                                    @"status" : @(200),
+                                    @"url" : urlString,
+                                    @"data" : @{},
+                                    @"headers" : @{}
+                                    };
         block((NO), @"网络请求失败", errorInfo);
     } else {
         int resultCode = [[dic objectForKey:@"resultCode"] intValue];
         NSString *resultMessage = [dic objectForKey:@"resultMessage"];
         id result = [dic objectForKey:@"result"];
         block((resultCode == 0), resultMessage, result);
-//        NSLog(@"resultCode=%d,resultMessage=%@,result=%@",resultCode,resultMessage,result);
+        //        NSLog(@"resultCode=%d,resultMessage=%@,result=%@",resultCode,resultMessage,result);
     }
 }
 
@@ -75,7 +76,7 @@ static XTNetWorkService *_netWorkService = nil;
                      @"msg" : [error userInfo][@"NSLocalizedDescription"],
                      @"headers" : @{},
                      @"url" : urlString,
-    };
+                     };
     
     block((NO), @"网络请求失败", errorInfoDic);
     
@@ -93,7 +94,7 @@ static XTNetWorkService *_netWorkService = nil;
     NSMutableDictionary *requestDic = [NSMutableDictionary dictionaryWithDictionary:dic];
     
     NSLog(@"%@",dic);
-
+    
     
     if (dic == nil) {
         requestDic = [NSMutableDictionary dictionary];
@@ -125,3 +126,4 @@ static XTNetWorkService *_netWorkService = nil;
 }
 
 @end
+
