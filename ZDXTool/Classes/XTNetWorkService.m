@@ -7,7 +7,11 @@
 //  网络请求类
 
 #import "XTNetWorkService.h"
+#if __has_include(<AFNetworking/AFNetworking.h>)
+#import <AFNetworking/AFNetworking.h>
+#else
 #import "AFNetworking.h"
+#endif
 
 #define TIMEOUTINTERVAL 60
 
