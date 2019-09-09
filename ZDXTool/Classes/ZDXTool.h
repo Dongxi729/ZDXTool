@@ -9,7 +9,7 @@
 #define ZDXTool_h
 
 #import "UIColor+ColorChange.h"
-#import "TestLog.h"
-#import "VVV.h"
+#import "NetworkTool.h"
+
 
 #endif /* ZDXTool_h */
