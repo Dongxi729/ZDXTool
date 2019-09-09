@@ -93,6 +93,8 @@
 		26BBC3C92326366F0073955F /* NetworkTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NetworkTool.m; path = ZDXTool/Classes/NetworkTool.m; sourceTree = "<group>"; };
 		26BBC3CA2326366F0073955F /* NetworkTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NetworkTool.h; path = ZDXTool/Classes/NetworkTool.h; sourceTree = "<group>"; };
 		26BBC3CB232639B40073955F /* ZDXTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZDXTool.h; path = ZDXTool/Classes/ZDXTool.h; sourceTree = "<group>"; };
+		26BBC3CF232647A40073955F /* XTNetWorkService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XTNetWorkService.h; path = ZDXTool/Classes/XTNetWorkService.h; sourceTree = "<group>"; };
+		26BBC3D0232647A40073955F /* XTNetWorkService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = XTNetWorkService.m; path = ZDXTool/Classes/XTNetWorkService.m; sourceTree = "<group>"; };
 		29670A9A26E9266FE6E8455C11E3127C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		2A38ED7DD61CEECDF8143492B3D2BA43 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		2D382C7C00AECB9300B5353E69AD0351 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
@@ -376,6 +378,8 @@
 				26BBC3CB232639B40073955F /* ZDXTool.h */,
 				D4FD1FBCADEB50AAC0CAB52B77847297 /* UIColor+ColorChange.h */,
 				812315747E00AC04AA3765DA5624ED52 /* UIColor+ColorChange.m */,
+				26BBC3CF232647A40073955F /* XTNetWorkService.h */,
+				26BBC3D0232647A40073955F /* XTNetWorkService.m */,
 				26BBC3CA2326366F0073955F /* NetworkTool.h */,
 				26BBC3C92326366F0073955F /* NetworkTool.m */,
 				3605ACFB700F3CEE4F50177BF2383DCF /* Pod */,
