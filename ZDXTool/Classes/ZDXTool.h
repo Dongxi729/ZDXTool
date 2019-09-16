@@ -10,5 +10,6 @@
 
 #import "UIColor+ColorChange.h"
 #import "XTNetWorkService.h"
+#import "ComMethod.h"
 
 #endif /* ZDXTool_h */
