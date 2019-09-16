@@ -97,6 +97,28 @@
 		268A958A232F1DD000BDB886 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Header.h; path = ZDXTool/Classes/Header.h; sourceTree = "<group>"; };
 		268A958E232F24FF00BDB886 /* DSToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DSToast.h; path = ZDXTool/Classes/DSToast.h; sourceTree = "<group>"; };
 		268A958F232F24FF00BDB886 /* DSToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DSToast.m; path = ZDXTool/Classes/DSToast.m; sourceTree = "<group>"; };
+		268A9593232F260B00BDB886 /* SystemInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SystemInfo.m; path = ZDXTool/Classes/SystemInfo.m; sourceTree = "<group>"; };
+		268A9594232F260B00BDB886 /* SystemInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SystemInfo.h; path = ZDXTool/Classes/SystemInfo.h; sourceTree = "<group>"; };
+		268A95B8232F2C3D00BDB886 /* NSString+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
+		268A95B9232F2C3D00BDB886 /* IRFileTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRFileTools.h; sourceTree = "<group>"; };
+		268A95BA232F2C3D00BDB886 /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
+		268A95BB232F2C3D00BDB886 /* UIColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		268A95BC232F2C3D00BDB886 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		268A95BD232F2C3D00BDB886 /* UIView+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Helper.h"; sourceTree = "<group>"; };
+		268A95BE232F2C3D00BDB886 /* NSAttributedString+Helpers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Helpers.m"; sourceTree = "<group>"; };
+		268A95BF232F2C3D00BDB886 /* UIImage+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Helper.m"; sourceTree = "<group>"; };
+		268A95C0232F2C3D00BDB886 /* IRTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRTools.h; sourceTree = "<group>"; };
+		268A95C1232F2C3D00BDB886 /* IRDateTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRDateTools.m; sourceTree = "<group>"; };
+		268A95C2232F2C3D00BDB886 /* IRFileTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRFileTools.m; sourceTree = "<group>"; };
+		268A95C3232F2C3D00BDB886 /* NSString+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
+		268A95C4232F2C3D00BDB886 /* UIColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		268A95C5232F2C3D00BDB886 /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
+		268A95C6232F2C3D00BDB886 /* NSAttributedString+Helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Helpers.h"; sourceTree = "<group>"; };
+		268A95C7232F2C3D00BDB886 /* UIView+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Helper.m"; sourceTree = "<group>"; };
+		268A95C8232F2C3D00BDB886 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		268A95C9232F2C3D00BDB886 /* IRDateTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRDateTools.h; sourceTree = "<group>"; };
+		268A95CA232F2C3D00BDB886 /* IRTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRTools.m; sourceTree = "<group>"; };
+		268A95CB232F2C3D00BDB886 /* UIImage+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Helper.h"; sourceTree = "<group>"; };
 		26FC3104232F155100A7B0A4 /* ComMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ComMethod.m; path = ZDXTool/Classes/ComMethod.m; sourceTree = "<group>"; };
 		26FC3105232F155100A7B0A4 /* ComMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ComMethod.h; path = ZDXTool/Classes/ComMethod.h; sourceTree = "<group>"; };
 		29670A9A26E9266FE6E8455C11E3127C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -207,6 +229,34 @@
 				FB8FCD97712E84420776F9855D62CA59 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		268A95B7232F2C3D00BDB886 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				268A95C3232F2C3D00BDB886 /* NSString+Helper.h */,
+				268A95B8232F2C3D00BDB886 /* NSString+Helper.m */,
+				268A95B9232F2C3D00BDB886 /* IRFileTools.h */,
+				268A95C2232F2C3D00BDB886 /* IRFileTools.m */,
+				268A95C9232F2C3D00BDB886 /* IRDateTools.h */,
+				268A95C1232F2C3D00BDB886 /* IRDateTools.m */,
+				268A95BA232F2C3D00BDB886 /* UIAlertView+Blocks.h */,
+				268A95C5232F2C3D00BDB886 /* UIAlertView+Blocks.m */,
+				268A95C4232F2C3D00BDB886 /* UIColor+Hex.h */,
+				268A95BB232F2C3D00BDB886 /* UIColor+Hex.m */,
+				268A95C8232F2C3D00BDB886 /* UIView+Frame.h */,
+				268A95BC232F2C3D00BDB886 /* UIView+Frame.m */,
+				268A95BD232F2C3D00BDB886 /* UIView+Helper.h */,
+				268A95C7232F2C3D00BDB886 /* UIView+Helper.m */,
+				268A95CB232F2C3D00BDB886 /* UIImage+Helper.h */,
+				268A95BF232F2C3D00BDB886 /* UIImage+Helper.m */,
+				268A95C0232F2C3D00BDB886 /* IRTools.h */,
+				268A95CA232F2C3D00BDB886 /* IRTools.m */,
+				268A95C6232F2C3D00BDB886 /* NSAttributedString+Helpers.h */,
+				268A95BE232F2C3D00BDB886 /* NSAttributedString+Helpers.m */,
+			);
+			name = tools;
+			path = ZDXTool/Classes/tools;
 			sourceTree = "<group>";
 		};
 		30F3F855995D816AA207FBE6CAAB0FF2 /* Support Files */ = {
@@ -381,6 +431,7 @@
 		DB05AD831B7C6A4575908493E219F804 /* ZDXTool */ = {
 			isa = PBXGroup;
 			children = (
+				268A95B7232F2C3D00BDB886 /* tools */,
 				34AA2EDCE7F34459B620BCBC0CFB65A0 /* UIColor+ColorChange.h */,
 				3B9AC8957F54D0B3F57F8E54C2DA3C54 /* UIColor+ColorChange.m */,
 				F29366F3CF0AB54F79157685D55A26C3 /* XTNetWorkService.h */,
@@ -389,6 +440,8 @@
 				F80FE431596E226721C795588305EB3A /* ZDXTool.h */,
 				268A958E232F24FF00BDB886 /* DSToast.h */,
 				268A958F232F24FF00BDB886 /* DSToast.m */,
+				268A9594232F260B00BDB886 /* SystemInfo.h */,
+				268A9593232F260B00BDB886 /* SystemInfo.m */,
 				26FC3105232F155100A7B0A4 /* ComMethod.h */,
 				26FC3104232F155100A7B0A4 /* ComMethod.m */,
 				4E816A01FA4621C9FFF2CA624F654CFA /* Pod */,
