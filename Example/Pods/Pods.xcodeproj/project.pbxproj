@@ -95,6 +95,8 @@
 		1C46BF32442A1135CE197A34568A199A /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		242867FB3202D9A82B49C1B2939945BD /* Pods-ZDXTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZDXTool_Tests-dummy.m"; sourceTree = "<group>"; };
 		268A958A232F1DD000BDB886 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Header.h; path = ZDXTool/Classes/Header.h; sourceTree = "<group>"; };
+		268A958E232F24FF00BDB886 /* DSToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DSToast.h; path = ZDXTool/Classes/DSToast.h; sourceTree = "<group>"; };
+		268A958F232F24FF00BDB886 /* DSToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DSToast.m; path = ZDXTool/Classes/DSToast.m; sourceTree = "<group>"; };
 		26FC3104232F155100A7B0A4 /* ComMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ComMethod.m; path = ZDXTool/Classes/ComMethod.m; sourceTree = "<group>"; };
 		26FC3105232F155100A7B0A4 /* ComMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ComMethod.h; path = ZDXTool/Classes/ComMethod.h; sourceTree = "<group>"; };
 		29670A9A26E9266FE6E8455C11E3127C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -385,6 +387,8 @@
 				5BC1C158822788F75B8D3806E17F19A7 /* XTNetWorkService.m */,
 				268A958A232F1DD000BDB886 /* Header.h */,
 				F80FE431596E226721C795588305EB3A /* ZDXTool.h */,
+				268A958E232F24FF00BDB886 /* DSToast.h */,
+				268A958F232F24FF00BDB886 /* DSToast.m */,
 				26FC3105232F155100A7B0A4 /* ComMethod.h */,
 				26FC3104232F155100A7B0A4 /* ComMethod.m */,
 				4E816A01FA4621C9FFF2CA624F654CFA /* Pod */,
